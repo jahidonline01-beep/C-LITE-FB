@@ -1,0 +1,15 @@
+C LITE FB - V12 Update Notes:
+Base: V9 (stable, no white screen)
+
+ONLY change from V9:
+- X button / Clear button final fix:
+  Removed position:relative and z-index:999999 from close/X button elements.
+  These two lines were breaking absolutely-positioned clear buttons in Android WebView.
+  Now only pointer-events:auto and touch-action:manipulation are set — layout is untouched.
+
+Everything else identical to V9:
+- App name: C LITE FB
+- Scroll: overscroll-behavior:none + scroll reset listener (no overflow:hidden)
+- "Get Facebook for Android" banner: hidden on login page
+- Icon: colorful blue+purple+cyan+pink F with sparkle stars
+- Cookie panel, login, logout, copy, refresh: all unchanged

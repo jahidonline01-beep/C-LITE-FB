@@ -1,0 +1,5 @@
+Fixed:
+1. Aggressive popup hide logic replaced with safe exact-only hide logic to prevent white screen.
+2. WebView scroll/touch fix kept.
+3. New premium launcher icon generated and fitted safely for Android adaptive icon.
+4. Other app functions were not changed.

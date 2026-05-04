@@ -1,0 +1,7 @@
+Fixed current version:
+1. Browsing scroll/touch issue: removed global touch listener and kept WebView focus/scroll enabled.
+2. X/close problem: removed global JS close-hook so Facebook input-field X and page close controls can work normally.
+3. Popup hiding: changed to safe small-promo-only hide logic to avoid white screen and scroll blocking.
+4. App launcher icon: replaced with clean premium adaptive vector icon, no bad crop/white box.
+5. Cookie button icon: premium C vector.
+No cookie/login functions were changed.

@@ -1,0 +1,7 @@
+V22 RESTORE ORIGINAL SCROLL BASE
+- Based on original V15 project, not V21 broken scroll build.
+- Restored original News Feed / Settings / Facebook page scrolling behavior.
+- Disabled forced Messenger desktop/messages route; Messenger stays normal Lite flow.
+- Disabled external app/deep links from Open App/Open Facebook buttons.
+- Added single manual X close per Open App/Get Facebook prompt with duplicate prevention.
+- Kept login page stability and cookie functions unchanged.

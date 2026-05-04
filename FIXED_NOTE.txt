@@ -1,0 +1,6 @@
+Fixed:
+1. GitHub build resource error fixed:
+   adaptive-icon XML files now copy only to app/src/main/res/mipmap-anydpi-v26.
+2. Manifest package attribute removed because namespace is already in Gradle.
+3. Meta Accounts Center close/X fallback added:
+   window.close() -> back/home, and close-like page buttons get a history.back fallback.

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle gold glow ring behind F -->
+    <path android:fillColor="#FFD700" android:fillAlpha="0.18"
+        android:pathData="M54,21A33,33 0,1,0 54.1,21Z"/>
+
+    <!-- White soft circle behind F (glow effect) -->
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.10"
+        android:pathData="M54,24A30,30 0,1,0 54.1,24Z"/>
+
+    <!-- Classic Facebook 'f' logo - white, original path -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M64,25h-8c-8.2,0 -13.6,5.4 -13.6,13.8v7.4H35v13.5h7.4v30.8h14.2V59.7h9.5l1.8,-13.5h-11.3v-6c0,-3.9 1.1,-6.5 6.6,-6.5h6.9V25.6C68.9,25.3 66.9,25 64,25z"/>
+
+    <!-- GOLD 5-point star - top right (within safe zone) -->
+    <path android:fillColor="#FFD700" android:fillAlpha="0.97"
+        android:pathData="M80,22 L81.5,27 L86.5,27 L82.5,30 L84,35 L80,32 L76,35 L77.5,30 L73.5,27 L78.5,27 Z"/>
+
+    <!-- CYAN 5-point star - top left -->
+    <path android:fillColor="#00E5FF" android:fillAlpha="0.92"
+        android:pathData="M28,22 L29.5,27 L34.5,27 L30.5,30 L32,35 L28,32 L24,35 L25.5,30 L21.5,27 L26.5,27 Z"/>
+
+    <!-- PINK/MAGENTA 5-point star - bottom right -->
+    <path android:fillColor="#FF4081" android:fillAlpha="0.90"
+        android:pathData="M82,73 L83.2,77 L87.2,77 L84,79.5 L85.2,83.5 L82,81 L78.8,83.5 L80,79.5 L76.8,77 L80.8,77 Z"/>
+
+    <!-- PURPLE diamond - bottom left -->
+    <path android:fillColor="#CE93D8" android:fillAlpha="0.90"
+        android:pathData="M24,76 L27,79 L24,82 L21,79 Z"/>
+
+    <!-- Small gold dot above F (top center) -->
+    <path android:fillColor="#FFD700" android:fillAlpha="0.80"
+        android:pathData="M54,19 A2.5,2.5 0,1,0 54.1,19Z"/>
+
+    <!-- Horizontal shine across F (light reflection) -->
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.12"
+        android:pathData="M34,44 Q54,41 76,43 L76,45 Q54,43 34,46 Z"/>
+
+    <!-- Small cyan dot - middle left -->
+    <path android:fillColor="#00E5FF" android:fillAlpha="0.65"
+        android:pathData="M23,50 A2,2 0,1,0 23.1,50Z"/>
+
+    <!-- Small pink dot - middle right -->
+    <path android:fillColor="#FF80AB" android:fillAlpha="0.65"
+        android:pathData="M85,52 A2,2 0,1,0 85.1,52Z"/>
+</vector>

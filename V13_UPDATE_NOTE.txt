@@ -1,0 +1,10 @@
+C LITE FB V13 UPDATE
+
+Fixed/updated:
+1. Messages click now stays inside the app and redirects to internal mbasic Facebook messages instead of opening Messenger app prompt.
+2. Login input clear X touch area improved with transparent overlay clear handler.
+3. Meta Accounts Center top-right X now works as in-app back/close using native bridge.
+4. Reels/video Open app and Interested/Not interested popup hiding improved without hiding the video/page body.
+5. Added repeated page-fix injection and WebView render recovery to reduce video hang/white screen issues.
+
+Other functions kept same.

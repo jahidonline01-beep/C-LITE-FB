@@ -1,0 +1,6 @@
+Final requested fixes:
+1. WebView browsing/feed/settings scroll fixed by removing touch blockers and forcing only safe overflow-y auto.
+2. Login input side X and Meta Account Center X fixed by removing global close-hook and disabling separate child-window behavior.
+3. Popup hide logic is now exact small-promo-only; it will not hide large page containers.
+4. App icon and cookie C icon from last version kept.
+5. Cookie/login functions unchanged.

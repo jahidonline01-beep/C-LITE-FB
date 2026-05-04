@@ -1,0 +1,3 @@
+App display name changed to: C LITE FB
+Package ID remains: com.cfb.fblite
+No other functions changed.

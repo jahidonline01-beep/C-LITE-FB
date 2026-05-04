@@ -1,0 +1,4 @@
+Only icon update applied on the provided base ZIP:
+1. Main launcher icon size fixed with safe adaptive-icon margins.
+2. Floating cookie button icon updated to premium C style.
+3. MainActivity.kt and app functions were not changed.

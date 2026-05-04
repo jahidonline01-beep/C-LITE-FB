@@ -1,0 +1,7 @@
+V34 update from original V25 base.
+- Home/feed UI and normal buttons preserved from uploaded original base.
+- Video popup/new-window handler rebuilt: no goBackOrHome() on popup; internal Facebook video links stay inside main WebView.
+- Video surface scroll unlock is video-only and does not hide body/main/feed.
+- WebView state save/restore disabled to stop old feed snapshot restore.
+- On app resume/start/cookie-login, only feed-like pages reload fresh with no-cache headers while cookies remain.
+- Accounts Center white screen handled conservatively by native repaint; no body/main hide.

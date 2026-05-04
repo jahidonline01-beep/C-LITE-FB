@@ -1,0 +1,1 @@
+V14: fixed white screen/hang risk by safer popup hiding, removed heavy interval scanning, improved Messenger internal mbasic routing, improved login input X clear touch area, kept all other functions unchanged.

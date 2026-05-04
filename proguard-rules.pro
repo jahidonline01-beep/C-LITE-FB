@@ -1,0 +1,2 @@
+-keep class com.cfb.fblite.** { *; }
+-keepattributes *Annotation*

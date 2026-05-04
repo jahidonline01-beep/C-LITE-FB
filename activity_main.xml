@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbarStyle="insideOverlay" />
+
+    <FrameLayout
+        android:id="@+id/splashOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btnCookie"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/btn_cookie_bg"
+        android:contentDescription="Cookie Panel"
+        android:elevation="16dp"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_cookie_c" />
+
+</FrameLayout>
